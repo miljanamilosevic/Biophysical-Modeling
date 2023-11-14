@@ -8,16 +8,13 @@ param = [a b];
 plot(t,x,'red','linewidth',2.5);
 xlabel('t');
 ylabel('x');
-title('Rešenje');
+title('resenje');
 
 hold on
 
 %Ojlerova metoda - nema f-je, sve sami radimo
-%(x u nekoj tacki (tn+1) i x(tn))/delta t = a*x(tn)+b
 tmax = 25; %vreme do kog se izvrsavaju simulacije
-dt = 0.1; %vremenski korak odredjivanja resenja (delta t) - delta t je rastojanje izmedju dve tacke (0-25),
-% u koliko tacaka cemo traziti resenje zavisi od delta t, npr ako je dt=1
-% imali bismo 25 tacaka, ako je 0.1 imali bismo 250 itd. 
+dt = 0.1; %vremenski korak odredjivanja resenja (delta t)
 Nt = tmax/dt; %broj tacaka u kojima se odredjuje resenje
 tspan = 0:dt:tmax; %vremenski opseg sa diskretnim koracima
 x = zeros(size(tspan)); %inicijalizacija vektora resenja
