@@ -1,6 +1,6 @@
 R = 5*10^(-6);
 ro_membrana = 0.2;
-ro_omotac = 0*75;
+ro_omotac = 75;
 ro_aksoplazma = 2;
 eps_r = 5;
 d = 5*10^(-9);

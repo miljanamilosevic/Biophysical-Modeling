@@ -59,5 +59,5 @@ hold on, plot(t,m2);
 plot(t,h2);
 ylabel('Vrednost aktivacione promenljive');
 xlabel('Vreme [ms]');
-title('Provodnost kalijumovih jonskih kanala');
+title('Vrednost aktivacione promenljive');
 legend('n', 'm', 'h');

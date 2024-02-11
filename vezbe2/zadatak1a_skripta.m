@@ -1,10 +1,10 @@
-R = 199*10^6;
+R = 199*10^6;  %1.5*ova vrednost - ako hocemo da povecamo za pedeset posto
 C = 59*10^(-12);
 tau = R*C;
 Ek = -95*10^(-3);
 
 %kola sa L, C i R, prelazni procesi se dese za 3-5 tau
-tspan = [0 5*tau];
+tspan = [0 5*tau];  
 
 %3 pocetna uslova za 3 slucaja
 % Vm>Ek, Vm<Ek, Vm=Ek
